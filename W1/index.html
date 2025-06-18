@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+
+<body>
+    <h1>Practice Week 1</h1>
+
+    <!-- Counter Practice -->
+    <h2>The counter is <span id="my_counter">0</span></h2>
+    <input id="input_1" type="text">
+    <button onclick="show()">Show text on DOM</button>
+    <button onclick="decrease()">-1</button>
+    <button onclick="increase()">+1</button>
+    <button onclick="reset()">Reset</button>
+
+    <!-- FizzBuzz Exercise -->
+    <button onclick="show_fizzbuzz()">Show FizzBuzz Exercise</button>
+    <ul class="fizzbuzz-list"></ul>
+
+    <!-- Average Grades Exercise -->
+    <form action="javascript:void(0)" onsubmit="show_average_grade()">
+        <input id="grade_1" type="number" min="0" max="5" step="any" placeholder="Grade 1" required>
+        <input id="grade_2" type="number" min="0" max="5" step="any" placeholder="Grade 2" required>
+        <input id="grade_3" type="number" min="0" max="5" step="any" placeholder="Grade 3" required>
+        <input id="grade_4" type="number" min="0" max="5" step="any" placeholder="Grade 4" required>
+        <input id="grade_5" type="number" min="0" max="5" step="any" placeholder="Grade 5" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+<script src="./script.js"></script>
+</html>
