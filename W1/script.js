@@ -70,6 +70,9 @@ function show_fizzbuzz() {
     }
 }
 
+const message = document.createElement("h2")
+document.body.appendChild(message);
+
 function show_average_grade() {
 
     let sum_grade = 0
@@ -80,13 +83,10 @@ function show_average_grade() {
     }
 
     const average_grade = (sum_grade / 5).toFixed(2)
-    const message = document.createElement("h2")
 
     if (average_grade >= 3) {
         message.innerHTML = `The average is ${average_grade} - Student Approved`
     } else {
         message.innerHTML = `The average is ${average_grade} - Student Failed`
     }
-
-    document.body.appendChild(message);
 }
