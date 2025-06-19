@@ -10,9 +10,9 @@
 //     }
 // }
 //
-// function numberPositive_2 (number) {
-//     number > 0 ? console.log("The number is positive") : console.log("The number is negative")
-// }
+function numberPositive_2 (number) {
+    number > 0 ? console.log("The number is positive") : console.log("The number is negative")
+}
 //
 // numberPositive(220)
 // numberPositive_2(-220)
@@ -44,6 +44,7 @@ const show = () => {
     document.getElementById("my_counter").textContent = document.getElementById("input_1").value
 }
 
+// FizzBuzz Exercise
 function show_fizzbuzz() {
     // Obtiene referencia al primer elemento del DOM que tenga la clase 'fizzbuzz-list'
     const fb_list = document.querySelector(".fizzbuzz-list");
@@ -70,6 +71,7 @@ function show_fizzbuzz() {
     }
 }
 
+// Average Grades Exercise
 const message = document.createElement("h2")
 document.body.appendChild(message);
 
